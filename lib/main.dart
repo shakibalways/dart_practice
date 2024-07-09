@@ -2,11 +2,14 @@
 
 
 void main(){
- var l= {
-  'name':"shkaib",
-  'roll':'50',
-  'dep':'CSE',
+ Map map1= {
  };
-var a = l.entries.map((e) => e.key).toList();
- print(a);
+
+ List details =['a','b','c','d'];
+
+ var map = details.asMap();
+
+
+
+ print(map);
 }
