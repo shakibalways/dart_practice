@@ -1,15 +1,5 @@
 
-// void main(){
-//   String welcome ="sakib noor faruk raju abid robiul";
-// var list =welcome.split('  ');
-// print(list.runtimeType);
-// var a= list.reversed;
-// print(a);
-// var b=a.join();
-// print(b);
-//
-//
-// }
+
 // void main(){
 // Map map ={
 //   'name':'kuddus',
@@ -22,6 +12,7 @@
 // print(a);
 //
 // }
+import 'package:dart_partice/date_time.dart';
 import 'package:dart_partice/next_page.dart';
 
 void main(){
@@ -33,7 +24,8 @@ int year = 2000;
 var birthYears = DateTime.now().year - year;
 print(birthYears);
 
-
+Motivation d = Motivation();
+d.Done();
 
 
 
